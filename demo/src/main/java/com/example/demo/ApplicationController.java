@@ -1,3 +1,5 @@
+package com.example.demo;
+
 @RestController
 @RequestMapping(value = "/application")
 public class ApplicationController {
