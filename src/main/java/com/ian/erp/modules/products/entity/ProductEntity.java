@@ -23,33 +23,33 @@ public class ProductEntity {
 	@Column(name = "productcode")
 	private String productCode;
 
-	@Column(name = "productname")
+	@Column(name = "productname", nullable = false)
 	private String productName;
 
-	@Column(name = "productimage")
+	@Column(name = "productimage", nullable = false)
 	private String productImage;
 
-	@Column(name = "productline")
+	@Column(name = "productline", nullable = false)
 	private String productLine;
 
-	@Column(name = "productscale")
+	@Column(name = "productscale", nullable = false)
 	private String productScale;
 
-	@Column(name = "productvendor")
+	@Column(name = "productvendor", nullable = false)
 	private String productVendor;
 
-	@Column(name = "productdescription")
+	@Column(name = "productdescription", nullable = false)
 	private String productDescription; // text NOT NULL,
 
-	@Column(name = "quantityinstock")
+	@Column(name = "quantityinstock", nullable = false)
 	private String quantitynStock;
 
-	@Column(name = "buyprice")
+	@Column(name = "buyprice", nullable = false)
 	private Long buyPrice;
 
-	@Column(name = "msrp")
+	@Column(name = "msrp", nullable = false)
 	private Long MSRP;
 
-	@Column(name = "ranking")
+	@Column(name = "ranking", nullable = false)
 	private String ranking;
 }
